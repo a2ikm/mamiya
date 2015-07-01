@@ -57,7 +57,7 @@ set :web, {
 #### Run it
 
 ```
-mamiya master -c /etc/mamiya/config.rb
+mamiya master -C /etc/mamiya/config.rb
 ```
 
 ### Agent
@@ -112,7 +112,7 @@ end
 #### Run it
 
 ```
-mamiya master -c /etc/mamiya/config.rb
+mamiya master -C /etc/mamiya/config.rb
 ```
 
 ### Confirm both working
