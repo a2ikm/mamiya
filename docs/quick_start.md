@@ -163,7 +163,7 @@ end
 # Step `release` run when Release is required. Usually for restarting app process, etc.
 # Also these step declaration accepts labels for `only` and `except` key to limit agents to run on.
 # (Labels can be set by agent's configuration)
-release 'reload unicorn', only [:app] do
+release 'reload unicorn', only: [:app] do
   run 'pkill', '-HUP', '-f', 'unicorn'
 end
 ```
